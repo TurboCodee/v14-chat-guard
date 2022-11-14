@@ -1,7 +1,7 @@
 {
-  "name": "Raven",
+  "name": "TurboCode",
   "version": "4.0.0",
-  "description": "Raven sunucusu için yapılmış basit chat guard botu.",
+  "description": "TurboCode sunucusu için yapılmış basit chat guard botu.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -16,7 +16,5 @@
     "fs": "^0.0.1-security",
     "mcg-anti-spam": "^0.0.1"
   },
-  "engines": {
-    "node": "16.x"
   }
 }
