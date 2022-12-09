@@ -139,6 +139,28 @@ client.on("messageCreate", async msg => {
                 }
               }
           })
+client.on('messageCreate', message => {
+    if (message.guild.id == "889110590159716463") return
+    const tag = "४"
+    const sa = message.content.toLowerCase()
+  
+    if (message.author.bot) return
+  
+    if (message.content.toLowerCase() == 'tag' || message.content.toLowerCase() == '!tag' || message.content.toLowerCase() == "tag ne") {
+      message.reply(`**Tagımız: \`४ / vst / vista \`**`)
+      message.channel.send(tag).sil(6)
+    }
+  
+    if (message.content.toLowerCase() == 'sa' || message.content.toLowerCase() == 'sae' || message.content.toLowerCase() == "selam aleyküm") {
+      message.reply(`<a:land_soft:1048391086000848997> **Aleyküm Selam Hoş Geldin**`).sil(6)
+    }
+  
+    if (message.content.toLowerCase().includes('günaydın') || message.content.toLowerCase().includes('gunaydın') || message.content.toLowerCase() == "güno" || message.content.toLowerCase() == "guno") {
+      if(message.author.id == "921052501673910292") message.reply("<a:land_soft:1048391086000848997>  **Günaydın Stebila. ^^**").sil(6)
+      else message.reply(`<a:exmy_butterfly_2:926447507909775390> **Günaydın hoşgeldin ^^**`).sil(6)
+      
+    }
+  })
         
        
             
